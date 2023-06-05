@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(243, 237, 187);
+}
+
+header{
+    background-color: aquamarine;
+    /*position: fixed;*/ /*dejo esto comentado porque queda mal ubicado en la página y no lo pude corregir.*/
+    padding: 10px;
+    width: 100%;
+}
+
+header h1 {
+    display: inline;
+}
+
+header nav{
+    display: inline;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+.menunav{
+    display: inline;
+    margin-right: 20px;
+}
+
+.listanav{
+    margin-top: 10px;
+}
+
+main{
+    margin-top: 70px;
+}
+
+.imagenes{
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+}
+
+.secciones{
+    margin: 50px 20px 10px 20px;
+}
+
+h2{
+    font-size: 35px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.pseccion{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+h3{
+    margin-left: 20px;
+}
+
+aside{
+    margin-top: 50px;
+}
+
+.txtaside{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.deportistas{
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+}
+
+figure{
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+figcaption{
+    margin-left: 20px;
+}
+
+footer{
+    background-color: aquamarine;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#listafot{
+    display: flex;
+    justify-content: center;
+}
+
+.listafooter{
+    display: inline;
+    margin-right: 30px;
+}
+
+#pfooter{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
